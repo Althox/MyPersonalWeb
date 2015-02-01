@@ -1,0 +1,84 @@
+@media screen{
+	body{
+		
+	}
+	.item img{
+		height: 200px;
+	}
+	#about{
+		margin-top: -20px;
+	}
+	#education{
+		padding-top: 40px;
+		padding-bottom: 50px;
+		margin-top: -30px;
+		background: #71A7BF;
+		color: white;
+		box-shadow: 0 2px 15px #6292A6 inset,
+					0 -8px 15px -8px #6292A6 inset;
+	}
+	#creations{
+		padding-top: 40px;
+		padding-bottom: 50px;
+		background: #555;
+		color: #fff;
+		margin-top: -30px;
+		box-shadow: 0 2px 15px #333 inset,
+					0 -8px 15px -8px #333 inset;
+	}
+	.lined-border{
+		width: 100%;
+		padding-top: 20px;
+		border-top: 1px solid #eee;
+	}
+	footer{
+		color: #cecece;
+		padding-bottom: 20px;
+	}
+	.project_boxes{
+		text-decoration: none;
+		opacity: 0.5;
+	}
+	.project_boxes:hover{
+		opacity: 1;
+	}
+	.scrollToTop{
+		display: none;
+		position: fixed;
+		right: 10px;
+		top: 10px;
+	}
+	.circleholder{
+		width: 70px;
+		height: 70px;
+		bottom: -75px;
+		left: 48%;
+		position: relative;
+		box-shadow: 0 -8px 15px -8px #6292A6 inset;
+	}
+	.circleholder-blue{
+		background: #71A7BF;
+	}
+	.circleholder-default{
+		background: #fff;
+		box-shadow: none;
+	}
+	.circleholder-gray{
+		background: #eee;
+		box-shadow: none;
+	}
+	.circleholder-dark-gray{
+		background: #555;
+		box-shadow: none;
+		box-shadow: 0 -8px 15px -8px #333 inset;
+	}
+	.circleholder .glyphicon{
+		position: relative;
+		right: -30px;
+		top: 40px;
+	}
+	.filler-image img{
+		max-height: 700px; /* Either 700-800 or 1080px */
+		width: 100%;
+	}
+}
